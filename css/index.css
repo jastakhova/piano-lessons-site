@@ -1,3 +1,5 @@
+/* header */
+
 div.h1 {
   margin-top: 40px;
   text-align: center;
@@ -12,24 +14,86 @@ div.h2 {
   margin-top: 0px;
 }
 
-.carouselDiv {
-    width: 548;
-    height: 569;
+.navbar-nav>li>a {
+    margin: 0 30px 0;
 }
 
-.carousel {
-    height: 569;
-    overflow: hidden;
+div.navbar-collapse {
+    text-align: center; 
+    line-height: 0;
 }
-.carousel .item {
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -ms-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+
+nav.navbar {
+    border-radius: 0;
 }
-.carousel .active.left, .carousel .active.right {
-    left:0;
-    opacity:0;
-    z-index:2;
+
+ul.navbar-nav {
+    display: inline-block; 
+    float: none;
+}
+
+/* home page */
+div.moto {
+    margin-top: 40px;
+    text-align: center;
+    
+    word-break: keep-all; 
+    font-family: 'Satisfy', cursive; 
+    font-size: 20px;
+}
+
+.parchment.center {
+  background-image: url('../img/center.png');
+  height: 420px;
+  padding: 30px 0 0;
+}
+
+.parchment.left>img {
+  float: right;
+}
+
+.parchment {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+div.self-img-div {
+    min-width: 375px; 
+    padding-bottom: 50px;
+}
+
+.self-img {
+    height: 340px;
+}
+
+.welcome-message {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px
+}
+
+/* teacher page */
+
+.lowered {
+    margin-top: 20px;
+}
+
+.bamboo-part {
+    width: 100%; 
+    background-image: url('../img/bamboo_pattern.jpg');
+    padding: 5% 15% 5%; 
+    margin-left: 0;
+}
+
+.text-panel {
+    word-break: keep-all; 
+    font-size: 18px; 
+    text-align: left; 
+    text-indent: 1em; 
+    background-color: rgba(218, 245, 226, 0.88); 
+    font-family: 'Josefin Slab', serif;
+}
+
+.thumbnail-correction {
+    padding: 10px; 
+    border-radius: 0;
 }
