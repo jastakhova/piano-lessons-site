@@ -18,3 +18,10 @@ To enable animation add "ngAnimate" to app.js, include angular-animate.js in ind
      opacity:1;
      z-index:1;
  }
+ 
+ TODO:
+    - calendar page
+    - students page
+    - anchoring
+    - different files for every page
+    - add proper contacts

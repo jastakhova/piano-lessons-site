@@ -165,3 +165,16 @@ div.self-img-div {
 .high-span {
     margin-bottom: 20px;
 }
+
+/* contact page */
+.stripe-part {
+    width: 100%;
+    background-image: url('../img/grey_pattern.jpg');
+    margin-left: 0;
+}
+
+.bolder {
+    font-weight: 700;
+}
+
+
