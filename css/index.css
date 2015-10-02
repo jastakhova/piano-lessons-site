@@ -136,6 +136,11 @@ div.self-img-div {
     height: 170px;
 }
 
+.tall-lesson-block {
+    padding: 20px 5px 0;
+    height: 200px;
+}
+
 .image-block {
     padding: 0; 
     overflow: hidden;
