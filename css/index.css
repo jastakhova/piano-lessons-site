@@ -77,23 +77,86 @@ div.self-img-div {
     margin-top: 20px;
 }
 
+.center-panel {
+    padding: 5% 15% 5% 15%;
+    margin: 0 auto;
+}
+
 .bamboo-part {
     width: 100%; 
     background-image: url('../img/bamboo_pattern.jpg');
-    padding: 5% 15% 5%; 
     margin-left: 0;
 }
 
+.center-panel .col-md-4 {
+    font-weight: 700;
+}
+
 .text-panel {
-    word-break: keep-all; 
-    font-size: 18px; 
     text-align: left; 
-    text-indent: 1em; 
     background-color: rgba(218, 245, 226, 0.88); 
-    font-family: 'Josefin Slab', serif;
 }
 
 .thumbnail-correction {
     padding: 10px; 
     border-radius: 0;
+}
+
+.text {
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px; 
+    word-break: keep-all;
+}
+.text.body {
+    text-indent: 1em;
+}
+
+.panel-footer {
+    height: 40px;
+}
+
+/* lessons page */
+.waves-part {
+    width: 100%;
+    background-image: url('../img/urban_pattern.jpg');
+    margin-left: 0;
+}
+
+.glyphicon {
+    font-size: 30px;
+    
+}
+
+.lesson-block {
+    background-color: rgb(176,199,219);
+    padding: 20px; 
+    text-align: center; 
+    border: 6px solid white;
+    margin: 10px;
+    height: 170px;
+}
+
+.image-block {
+    padding: 0; 
+    overflow: hidden;
+}
+
+.green-block {
+  background-color: #D0F6E1;
+}
+
+.pink-block {
+    background-color: #FFC7F1;
+}
+
+.yellow-block {
+    background-color: #FFF0D1;
+}
+
+.purple-block {
+    background-color: #D7B8D8;
+}
+
+.high-span {
+    margin-bottom: 20px;
 }
